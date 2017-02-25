@@ -11,7 +11,7 @@ body{
 	text-decoration:underline;
 }
 .header_link p{
-		margin-right:350px;
+		margin-right:347px;
 }
 .header_link .member{
 	position:relative;
@@ -56,9 +56,11 @@ body{
 .header_logo .logo_content .infor{
 	padding:14px 5px 19px 5px;
 	width:395px;
+	margin-right: 7px;
 }
 .nav{
 	border-bottom:1px solid #e0e0e0;
+	margin-top: 5px;
 }
 .nav ul li{
 	float:left;
@@ -71,6 +73,7 @@ body{
 	font-size:18px;
 	color:#105fac;
 	text-align: center;	
+	
 }
 .header .nav ul li a:hover{
 	color:#79acde;
@@ -212,9 +215,117 @@ body{
 	background: #399ac5;
 	border-top:1px solid #2d8eb9;
 }
+.footer .copyright{
+	background: #3192bd;
+}
 
+.tab_options p{
+	padding-left:35px;
+	line-height: 55px;
+	background: #f4f2f2;
+}
+.member_center{
+	width:260px;
+	background: #f4f2f2;
+	height:1200px;
+}
+.member_center h4{
+	line-height: 42px;
+	color:#2f7bc3;
+	background: #e6e4e4;
+}
+.member_center .block{
+	height:210px;
+	
+	position:relative;
+	text-align: center;
+}
+.member_center .block .line{
+	display:inline-block;
+	margin-top: 30px;
+	width:118px;
+	height:26px;
+	border:1px solid #d1d1d1;
+	border-bottom:0;
+}
+.member_center .block p{
+	position:absolute;
+	line-height: 30px;
+	background: #f4f2f2;
+	width:75px;
+	left:96px;
+}
+.member_center .block .p1{
+	top:13px;
+}
+.member_center .block .p2{
+	top:106px;
+}
 
-
+.member_center .block .btn {
+	display: inline-block;
+	margin-right:16px;
+}
+.member_center .block .btn a{
+	display:inline-block;
+	width:102px;
+	line-height: 26px;
+	color:#fff;
+	text-align: center;
+}
+.member_center .block .login a{
+	background: #ff9d3e;
+	border:1px solid #ffcd8c;
+}
+.member_center .block .login{
+	border:1px solid #ff9d3e;
+}
+.member_center .block .reg a{
+	background: #7bd7d1;
+	border:1px solid #b2e8e0;
+}
+.member_center .block .reg{
+	border:1px solid #7bd7d1;
+}
+.member_center h5{
+	line-height: 35px
+}
+.member_center h5 span{
+	color:#ff9d3e;
+}
+.member_list {
+	width:914px;
+}
+.member_list h2{
+	line-height: 40px;
+	border-bottom:1px solid #ebebeb;
+}
+.member_list .pattern{
+	border-left:6px solid #609be3;
+	color:#609be3;
+}
+.member_list ul li{
+	width:76px;
+	margin-bottom: 20px;
+	float:left;
+}
+.member_list .title{
+	position:relative;
+}
+.member_list  .title a{
+	position:absolute;
+	width:94px;
+	height:35px;
+	background: url('../images/index_18.gif') no-repeat;
+	top:0;
+	right:0;
+}
+.member_list  .member_block div{
+	width:695px;
+}
+.member_list .member_block p{
+	line-height: 25px;
+}
 
 
 
