@@ -97,7 +97,7 @@ body{
 .main .main_left .news_list a{
 	display: block;
 	position:relative;
-	line-height: 30px;
+	line-height: 32px;
 }
 .main .main_left .news_list a span{
 	position:absolute;
@@ -128,7 +128,7 @@ body{
 .main .main_right p span{
 	width:45px;
 	margin-right:10px;
-	margin-top:5px;
+	margin-top:8px;
 	display: inline-block;
 	text-align: justify;
 }
