@@ -27,7 +27,7 @@ body{
 }
 .header_link .member .icon1{
 	background: url('../images/index_03.gif') no-repeat center;
-	
+
 }
 .header_link .member .icon2{
 	background: url('../images/1_03.gif') no-repeat center;
@@ -72,8 +72,8 @@ body{
 	line-height:43px;
 	font-size:18px;
 	color:#105fac;
-	text-align: center;	
-	
+	text-align: center;
+
 }
 .header .nav ul li a:hover{
 	color:#79acde;
@@ -89,6 +89,7 @@ body{
 .title{
 	line-height: 40px;
 	border-bottom:1px solid #e0e0e0;
+	width:100%;
 }
 .main .main_left .news_block .link a:hover{
 	text-decoration: underline;
@@ -96,7 +97,7 @@ body{
 .main .main_left .news_list a{
 	display: block;
 	position:relative;
-	line-height: 28px;
+	line-height: 30px;
 }
 .main .main_left .news_list a span{
 	position:absolute;
@@ -142,7 +143,7 @@ body{
 	width:94px;
 	height:35px;
 	background: url('../images/index_18.gif') no-repeat;
-	top:0;
+	top:4px;
 	right:0;
 }
 .member .member_left .member_block div{
@@ -154,9 +155,11 @@ body{
 .more{
 	color:#8bc0d9;
 	text-align: center;
-	display: block;
+	display: inline-block;
 	border:1px solid #ededed;
 	line-height: 50px;
+	_line-height:40px;
+	width:100%;
 }
 .member .member_right .newjoin{
 	background: #f9f9f9;
@@ -167,7 +170,7 @@ body{
 }
 .member .member_right .newjoin table thead{
 	background: #f3f3f3;
-	line-height: 36px;
+	line-height: 40px;
 }
 .member .member_right  .newjoin table .name{
 	width:95px;
@@ -184,7 +187,7 @@ body{
 .member .member_right .newjoin table tbody{
 	width:330px;
 	background: #fff;
-	line-height: 32px;
+	line-height: 35px;
 }
 .member .member_right .newjoin table tbody .t1{
 	width:90px;
@@ -205,7 +208,7 @@ body{
 .footer .footer_nav{
 	background: #2d8eb9;
 	border-bottom:1px solid #6eacc7;
-	
+
 }
 .footer .footer_nav ul li a{
 	color:#fff;
@@ -236,7 +239,7 @@ body{
 }
 .member_center .block{
 	height:210px;
-	
+
 	position:relative;
 	text-align: center;
 }
@@ -307,6 +310,7 @@ body{
 .member_list ul li{
 	width:76px;
 	margin-bottom: 20px;
+	_margin-bottom:0;
 	float:left;
 }
 .member_list .title{
@@ -326,20 +330,101 @@ body{
 .member_list .member_block p{
 	line-height: 25px;
 }
+.tab_tag{
+	width: 260px;
+	margin-right:25px;
+	background: #f4f2f2;
+	height:1000px;
+}
+.tab_tag ul li a{
+	display: inline-block;
+	font-size: 18px;
+	color:#6a6a6a;
+	border-bottom:1px dashed #d4d4d4;
+	line-height: 56px;
+	position:relative;
+	padding-left:50px;
+	width:210px;
+}
+.tab_tag ul li a span{
+	position: absolute;
+	left:25px;
+	top:20px;
+	width: 3px;
+	height:14px;
+	background: url('../images/tag_03.gif') no-repeat;
+}
+.tab_tag ul li .on{
+	color:#3f81c1!important;
+	border-bottom:1px dashed #79acde!important;
+}
+.newslist{
+	width:910px;
+}
+.newslist h2{
+	line-height:56px;
+	border-bottom:1px solid #abdeff;
+	margin-bottom:1px;
+	color:#79acde;
+}
+.newslist .list{
+	border-bottom:1px dashed #d4d4d4;
+}
+.newslist .list li a{
+	display: block;
+	line-height:35px;
+	_line-height:20px;
+	position:relative;
+}
+.newslist .list li a span{
+	position:absolute;
+	top:0;
+	right:5px;
+}
+.pagenumber{
+	width:490px;
+	margin:50px auto;
+}
+.pagenumber .pre,.pagenumber .next{
+	display: inline-block;
+	padding:5px 10px;
+	background:#ddd;
+	border:1px solid #d3d3d3;
+	font-size: 14px;
+	color:#303030;
+	border-radius: 3px;
+	margin-right:10px;
+}
+.pagenumber ul li{
+	float:left;
+}
+.pagenumber ul li a{
+	display: inline-block;
+	padding:5px 10px;
+	color:#303030;
+	font-weight: 900;
+	border:1px solid #d3d3d3;
+	border-radius: 3px;
+	margin-right:7px;
+	font-size: 14px;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.pagenumber ul li .on{
+	background:#79acde;
+	color:#fff;
+}
+.newscontent{
+	width:910px;
+}
+.newscontent h2{
+	line-height:56px;
+	border-bottom:1px solid #abdeff;
+	margin-bottom:1px;
+	color:#79acde;
+}
+.newscontent .cblock{
+	border-top:1px solid #abdeff;
+}
+.newscontent .cblock p{
+	line-height:35px;
+}
