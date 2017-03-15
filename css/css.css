@@ -1,10 +1,14 @@
-ul,li,p,h1,h2,h3,h4,h5,h6{margin:0;padding:0;font-weight: 400;font-size: 100%}
+p,h1,h2,h3,h4,h5,h6{margin:0;padding:0;font-weight: 400;font-size: 100%}
 a{text-decoration:none;border:0;font-size: 14px;color:#343434;}
 a:focus{outline:none;}
 body{
 	font-size: 14px;
 	color:#363636;
+	margin:0;padding:0;
+  	font-family:Microsoft YaHei;
+  	min-width:1200px;
 }
+img{border:0;}
 /*首页*/
 .header_link{
 	line-height:35px;
@@ -66,6 +70,7 @@ body{
 .nav ul{
 	list-style: none;
 	clear: both;
+    padding:0;
 }
 .nav ul li{
 	float:left;
@@ -85,6 +90,7 @@ body{
 .slider{margin-top:25px;}
 .slider ul{
 	list-style: none;
+	margin:0;padding:0;
 }
 .prev_arr{position:absolute;top:60px;left:15px;z-index:9;}
 .next_arr{position:absolute;top:60px;right:15px;z-index:9;}
@@ -103,10 +109,11 @@ body{
 }
 .main .main_left .news_list{
 	list-style: none;
-	
+	margin:0;padding:0;
 }
 .main .main_left .news_list li{
 	position:relative;
+	_height:32px;
 }
 .main .main_left .news_list a{
 	display: block;
@@ -141,7 +148,7 @@ body{
 	top:40px;
 	width:12px;
 	height:6px;
-	background: url('../images/arr_07.gif');
+	background: url('../images/arr_07.gif') no-repeat;
 }
 .main .main_right h4{
 	color:#923106;
@@ -238,6 +245,7 @@ body{
 }
 .footer .footer_nav ul{
 	list-style: none;
+	padding:0;
 }
 .footer .footer_nav ul li a{
 	color:#fff;
@@ -344,6 +352,7 @@ body{
 }
 .member_list ul{
 	list-style: none;
+	margin:0;padding:0;
 }
 .member_list ul li{
 	width:76px;
@@ -377,6 +386,7 @@ body{
 }
 .tab_tag ul{
 	list-style: none;
+	margin:0;padding:0;
 }
 .tab_tag ul li a{
 	display: inline-block;
@@ -406,6 +416,7 @@ body{
 .newslist{
 	width:910px;
 	list-style: none;
+	margin:0;padding:0;
 }
 .newslist h2{
 	line-height:56px;
@@ -416,14 +427,16 @@ body{
 .newslist .list{
 	border-bottom:1px dashed #d4d4d4;
 	list-style: none;
+	margin:0;padding:0;
 }
 .newslist .list li{
 	position:relative;
+	_height:35px;
 }
 .newslist .list li a{
 	display: block;
 	line-height:35px;
-	_line-height:20px;
+	/*_line-height:20px;*/
 	width:710px;
 	overflow: hidden;
   	word-break:break-all;
@@ -435,7 +448,8 @@ body{
 }
 .newslist .list li span{
 	position:absolute;
-	top:0;
+	top:10px;
+	_top:5px;
 	right:8px;
 	color:#9d9d9d;
 }
@@ -455,6 +469,7 @@ body{
 }
 .pagenumber ul{
 	list-style: none;
+	margin:0;padding:0;
 }
 .pagenumber ul li{
 	float:left;
